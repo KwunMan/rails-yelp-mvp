@@ -1,0 +1,40 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "layouts/index";
+@import "components/index";
+@import "pages/index";
+
+
+// has a name (FAILED - 3)
+//   has an address (FAILED - 4)
+//   has a phone number (FAILED - 5)
+//   has a category (FAILED - 6)
+
+// Review
+//   has a content (FAILED - 18)
+//   has a rating (stored as integer) (FAILED - 19)
+
+// RestaurantsController
+//   should exist (FAILED - 1)
+
+// ReviewsController
+//   should exist (FAILED - 2)
+
+// rails generate model restaurant name:string address:text phone:string category:string
+// rails generate model review content:text rating:integer
+// rails generate controller restaurants
+// rails generate controller reviews
+
+// rails rename_column :retaurant, :phone, :phone_number
+
+// rails generate migration phone_number
